@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filterable Image Gallery</title>
+
+    <!--bootstrap-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css"
+    />
+
+    <!--css file-->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row mt-5 buttons">
+        <div class="col-12">
+          <button class="btn mb-2 me-1 active" data-filter="all">All</button>
+          <button class="btn mb-2 mx-1" data-filter="car">Car</button>
+          <button class="btn mb-2 mx-1" data-filter="phone">Phone</button>
+          <button class="btn mb-2 mx-1" data-filter="watch">Watch</button>
+        </div>
+      </div>
+
+      <div class="row px-2 mt-4 gap-3 cards">
+        <div class="card p-0" data-name="car">
+          <img src="images/img1.jpg" alt="" />
+          <div class="card-body">
+            <h6 class="card-title">Car</h6>
+            <p class="card-text">Lorem ipsum dolor sit.</p>
+          </div>
+        </div>
+        <div class="card p-0" data-name="watch">
+          <img src="images/img2.jpg" alt="" />
+          <div class="card-body">
+            <h6 class="card-title">Watch</h6>
+            <p class="card-text">Lorem ipsum dolor sit.</p>
+          </div>
+        </div>
+        <div class="card p-0" data-name="phone">
+          <img src="images/img3.jpg" alt="" />
+          <div class="card-body">
+            <h6 class="card-title">Phone</h6>
+            <p class="card-text">Lorem ipsum dolor sit.</p>
+          </div>
+        </div>
+        <div class="card p-0" data-name="car">
+          <img src="images/img4.jpg" alt="" />
+          <div class="card-body">
+            <h6 class="card-title">Car</h6>
+            <p class="card-text">Lorem ipsum dolor sit.</p>
+          </div>
+        </div>
+        <div class="card p-0" data-name="phone">
+          <img src="images/img5.jpg" alt="" />
+          <div class="card-body">
+            <h6 class="card-title">Phone</h6>
+            <p class="card-text">Lorem ipsum dolor sit.</p>
+          </div>
+        </div>
+        <div class="card p-0" data-name="watch">
+          <img src="images/img6.jpg" alt="" />
+          <div class="card-body">
+            <h6 class="card-title">Watch</h6>
+            <p class="card-text">Lorem ipsum dolor sit.</p>
+          </div>
+        </div>
+        <div class="card p-0" data-name="car">
+          <img src="images/img7.jpg" alt="" />
+          <div class="card-body">
+            <h6 class="card-title">Car</h6>
+            <p class="card-text">Lorem ipsum dolor sit.</p>
+          </div>
+        </div>
+        <div class="card p-0" data-name="phone">
+          <img src="images/img8.jpg" alt="" />
+          <div class="card-body">
+            <h6 class="card-title">Phone</h6>
+            <p class="card-text">Lorem ipsum dolor sit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
